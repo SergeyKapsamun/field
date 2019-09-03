@@ -10,7 +10,7 @@ using namespace std;
 int main(int argc, char *argv[]) {
     if(argc<2)
     {
-        cout<<"Мало аргументов";
+        cout<<"Укажите путь к картинке в качестве параметра";
         exit(0);
     }
   Mat src, src_gray, dst;
